@@ -6,7 +6,7 @@
     <!-- Our JavaScript file -->
     <script src="scripts/client.js"></script>
     <!-- Google Font (optional) -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles/style.css">
     <title>Salary Calculator</title>
@@ -25,12 +25,35 @@
             <input type="text" placeholder="ID"  id="id-number-field">
             <input type="text" placeholder="Title" id="job-title">
             <input type="text" placeholder="Annual Salary"  id="annual-salary-field">
+
+            <button id="submitEmployeeButton">Submit</button>
+
         </div>
 
-
-
-
     </div>
+
+    <table class="table-headings">
+        <thead>
+            <!--headings-->
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Annual Salary</th>
+            </tr>
+        </thead>
+
+        <tbody id="info-table">
+            <!--table data-->
+           <tr>  <!--table row-->
+               <td>Oscar</td>
+               <td>Carbajal</td>
+               <td>1010</td>
+               <td>Under Water Weaver</td>
+               <td>$100,000</td>
+           </tr>
+    </table>
 
 
 </body>

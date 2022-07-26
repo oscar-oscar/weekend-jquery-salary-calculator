@@ -1,3 +1,55 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
+html,
+body {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: gray;
 }
+
+
+header {
+    text-align: center;
+    background-color: rgb(84, 134, 236);
+    border: none;
+    color: lightgoldenrodyellow;
+    padding: 12px 32px;
+}
+
+#content {
+    padding: 100px;
+}
+
+table {
+    border-style: groove;
+    border-collapse: collapse;
+   
+    margin: 30px 0px;
+    box-sizing: border-box;
+    table-layout: auto;
+   
+    box-sizing: content-box;
+    width: 100%;
+    border: solid  rgb(84, 134, 236) 2px;
+    padding: 5px;
+}
+th{
+    background-color:  rgb(84, 134, 236);
+    color: lightgoldenrodyellow;
+    
+}
+th,
+td {
+    font-size: larger;
+    text-align:center;
+    padding: 20px 20px;
+    border: solid  rgb(84, 134, 236) 2px;
+}
+
+tr{
+
+    border-style: groove;
+    border-collapse: collapse;
+
+}
+
+

@@ -16,3 +16,5 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 Checklist
 1. [x] create HTML, CSS, JS and JQ files, organizle folders and source into HTML head.
 2. [x] update ReadMe project name and description
+3. [x] The application should have an input form that collects _employee first name, last name, ID number, job title, annual salary_.
+
