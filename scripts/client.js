@@ -13,6 +13,7 @@ function readyNow() {
     console.log('ready now');
     //when submit button is clicked it runs addEmployee function
     $( '#submitEmployeeButton' ).on( 'click', addEmployee );
+    $( '#delete-employee' ).on( 'click', deleteEmployee );
 }
 
 //function that adds employye after fields are filled
@@ -41,6 +42,11 @@ function addEmployee(){
     employees.push( addEmployee );
 }
 
+function deleteEmployee(){
+    console.log('in deleteEmployee');
+    // when delete button is clicked, the first parent (the button itself) is removed then it's parent is removed (td+tr)
+    $(this).parent().parent().remove();
+}
 let monthlyTotal = 0;
 
 //function displayEmployee(){

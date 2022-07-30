@@ -56,7 +56,9 @@ tr{
     background-color:  rgb(84, 134, 236);
     color: lightgoldenrodyellow;
     font-family: 'IBM Plex Mono', monospace;
-    padding: 10px 20px
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid lightgoldenrodyellow;
    
 }
 
