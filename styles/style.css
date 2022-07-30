@@ -52,4 +52,16 @@ tr{
 
 }
 
+#delete-employee {
+    background-color:  rgb(84, 134, 236);
+    color: lightgoldenrodyellow;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 10px 20px
+   
+}
 
+#delete-employee:hover {
+    background-color: #ee5102;
+    color: white;
+
+  }

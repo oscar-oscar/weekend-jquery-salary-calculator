@@ -4,6 +4,7 @@ $(readyNow);
 
 const monthlyBudget = 20000;
 
+
 let employees = [];
 /**
  * This function is called after the HTML has loaded.
@@ -39,6 +40,8 @@ function addEmployee(){
     //push info into employeees array
     employees.push( addEmployee );
 }
+
+let monthlyTotal = 0;
 
 //function displayEmployee(){
     //console.log('in displayEmployee');
