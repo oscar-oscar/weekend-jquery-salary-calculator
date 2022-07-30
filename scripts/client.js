@@ -26,6 +26,7 @@ function addEmployee(){
     let numberId = $( '#id-number-field' ).val();
     let title = $( '#job-title-field' ).val();
     let salary = $( '#annual-salary-field' ).val();
+    //let deleteButton = $( 'button id="delete-employee">Delete</button>').val().
 
 
     
@@ -37,6 +38,8 @@ function addEmployee(){
         <td>${numberId}</td>
         <td>${title}</td>
         <td>${salary}</td>
+        <td><button id="delete-employee">Delete</button></td>
+       
     `)
     //push info into employeees array
     employees.push( addEmployee );
